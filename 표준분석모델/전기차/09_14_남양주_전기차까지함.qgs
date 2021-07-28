@@ -1,0 +1,143 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.24">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="" checked="Qt::Checked" id="OpenLayers_plugin_layer20200914111922887" source="" name="Daum Street">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>203283.10211764709674753</xmin>
+      <ymin>428545.82211764715611935</ymin>
+      <xmax>237689.5021176471200306</xmax>
+      <ymax>497358.62211764696985483</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>28045</srsid>
+        <srid>5181</srid>
+        <authid>EPSG:5181</authid>
+        <description>Korea 2000 / Central Belt</description>
+        <projectionacronym>tmerc</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="남양주_전기차20200914144313929"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5179" srcDatumTransform="-1" destDatumTransform="-1" layerid="남양주_전기차20200914144352116"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="격자_432620200914112326566"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5179" srcDatumTransform="-1" destDatumTransform="-1" layerid="격자_517920200914112251140"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="남양주_충전소20200914143637930"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="남양주_주차장20200914143829681"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5179" srcDatumTransform="-1" destDatumTransform="-1" layerid="남양주_주차장20200914143946441"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5181" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20200914111922887"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5179" srcDatumTransform="-1" destDatumTransform="-1" layerid="vl_blk20200914111958180"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5179" srcDatumTransform="-1" destDatumTransform="-1" layerid="남양주_도서관20200914144240005"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5179" srcDatumTransform="-1" destDatumTransform="-1" layerid="천안_충전소20200914143746738"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5179" srcDatumTransform="-1" destDatumTransform="-1" layerid="FCLTS_2018071220200914113041879"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="남양주_도서관20200914144118593"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5179" srcDatumTransform="-1" destDatumTransform="-1" layerid="격자_517920200914112052648"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5179" srcDatumTransform="-1" destDatumTransform="-1" layerid="남양주_민원행정기관20200914143451269"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5179" srcDatumTransform="-1" destDatumTransform="-1" layerid="vl_blk20200914112116822"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5179" srcDatumTransform="-1" destDatumTransform="-1" layerid="생산가능인구_517920200914112154520"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>OpenLayers_plugin_layer20200914111922887</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Daum Street" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20200914111922887" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
+      <extent>
+        <xmin>-30000</xmin>
+        <ymin>-60000</ymin>
+        <xmax>494288</xmax>
+        <ymax>988576</ymax>
+      </extent>
+      <id>OpenLayers_plugin_layer20200914111922887</id>
+      <datasource></datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Daum Street</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28045</srsid>
+          <srid>5181</srid>
+          <authid>EPSG:5181</authid>
+          <description>Korea 2000 / Central Belt</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="ol_layer_type" value="Daum Street"/>
+      </customproperties>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList"/>
+      <LayerSnappingEnabledList type="QStringList"/>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList"/>
+      <LayerSnapToList type="QStringList"/>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList"/>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>
